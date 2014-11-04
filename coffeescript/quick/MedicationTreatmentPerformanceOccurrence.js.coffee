@@ -51,6 +51,21 @@ let DiabetesMedsDispensed =
     where
       IsEquivalent(actionPerformed, MedicationDispensedActionCode)
  
+# =require Period.js.coffee
+# =require Dispense.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require StatementTopic.js.coffee
+# =require Participant.js.coffee
+# =require Medication.js.coffee
+# =require Indication.js.coffee
+# =require ActionStatus.js.coffee
+# =require StatementModality.js.coffee
+# =require Dosage.js.coffee
+# =require Patient.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
+# =require Person.js.coffee
+# =require Entity.js.coffee
 @class MedicationTreatmentPerformanceOccurrence
 @exports  MedicationTreatmentPerformanceOccurrence as quick.MedicationTreatmentPerformanceOccurrence
 ###

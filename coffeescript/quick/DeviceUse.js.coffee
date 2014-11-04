@@ -30,6 +30,9 @@ this.QUICK ||= {}
 ###*
 Application or use of equipment or device for the patient. E.g., wheelchair, Holter monitor, pacemaker, intra-uterine contraceptive device
  
+# =require BodySite.js.coffee
+# =require Schedule.js.coffee
+# =require Device.js.coffee
 @class DeviceUse
 @exports  DeviceUse as quick.DeviceUse
 ###

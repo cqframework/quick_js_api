@@ -30,6 +30,7 @@ this.QUICK ||= {}
 ###*
 Class describing the status of an action.
  
+# =require CodeableConcept.js.coffee
 @class ActionStatus
 @exports  ActionStatus as quick.ActionStatus
 ###

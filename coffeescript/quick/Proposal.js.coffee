@@ -30,6 +30,10 @@ this.QUICK ||= {}
 ###*
 The proposal may be a recommendation from a clinical decision support system or advice from a consultation.
  
+# =require Period.js.coffee
+# =require Indication.js.coffee
+# =require ActionStatus.js.coffee
+# =require CodeableConcept.js.coffee
 @class Proposal
 @exports  Proposal as quick.Proposal
 ###

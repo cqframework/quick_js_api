@@ -30,6 +30,12 @@ this.QUICK ||= {}
 ###*
 A group of related result values such as a laboratory result panel.  e.g., complete blood count, blood pressure
  
+# =require Specimen.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require BodySite.js.coffee
+# =require CodeableConcept.js.coffee
+# =require ObservationResultBase.js.coffee
+# =require RelatedObservation.js.coffee
 @class ObservationResultGroup
 @exports  ObservationResultGroup as quick.ObservationResultGroup
 ###

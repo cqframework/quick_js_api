@@ -28,6 +28,7 @@
 ###
 this.QUICK ||= {}
 ###*
+# =require Extension.js.coffee
 @class Identifier
 @exports  Identifier as quick.Identifier
 ###

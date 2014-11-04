@@ -30,6 +30,8 @@ this.QUICK ||= {}
 ###*
 A method to control the positioning and movement of a specific area of the body. Such motion management may be conducted during a procedure.
  
+# =require BodySite.js.coffee
+# =require CodeableConcept.js.coffee
 @class MotionManagement
 @exports  MotionManagement as quick.MotionManagement
 ###

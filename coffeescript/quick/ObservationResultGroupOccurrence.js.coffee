@@ -39,6 +39,19 @@ let RecentCBC =
   [ObservationResultGroup: "Complete Blood Count"] CBC
     where CBC.observedAtTime starts during interval[Today, Today - 2 days]
  
+# =require Period.js.coffee
+# =require BodySite.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require StatementTopic.js.coffee
+# =require ObservationResultBase.js.coffee
+# =require Specimen.js.coffee
+# =require StatementModality.js.coffee
+# =require Patient.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
+# =require RelatedObservation.js.coffee
+# =require Person.js.coffee
+# =require Entity.js.coffee
 @class ObservationResultGroupOccurrence
 @exports  ObservationResultGroupOccurrence as quick.ObservationResultGroupOccurrence
 ###

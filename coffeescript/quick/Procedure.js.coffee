@@ -30,6 +30,9 @@ this.QUICK ||= {}
 ###*
 A procedure is an activity that is performed with or on a patient as part of the provision of care. This can be a physical 'thing' like an operation, or less invasive like counseling or hypnotherapy. Examples include surgical procedures, diagnostic procedures, endoscopic procedures, biopsies, and exclude things for which there are specific types of acts defined, such as those for immunizations, medication administrations, nutrition administration, and use of devices.
  
+# =require Schedule.js.coffee
+# =require BodySite.js.coffee
+# =require CodeableConcept.js.coffee
 @class Procedure
 @exports  Procedure as quick.Procedure
 ###

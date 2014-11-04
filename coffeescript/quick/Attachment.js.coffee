@@ -28,6 +28,7 @@
 ###
 this.QUICK ||= {}
 ###*
+# =require Extension.js.coffee
 @class Attachment
 @exports  Attachment as quick.Attachment
 ###

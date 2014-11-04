@@ -30,6 +30,12 @@ this.QUICK ||= {}
 ###*
 Use to record detailed information about conditions, problems or diagnoses recognized by a clinician. There are many uses including: recording a Diagnosis during an Encounter; populating a problem List or a Summary Statement, such as a Discharge Summary.
  
+# =require Period.js.coffee
+# =require Range.js.coffee
+# =require BodySite.js.coffee
+# =require Qualifier.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Stage.js.coffee
 @class Condition
 @exports  Condition as quick.Condition
 ###

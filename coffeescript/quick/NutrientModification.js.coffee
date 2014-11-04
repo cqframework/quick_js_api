@@ -32,6 +32,8 @@ Nutrient modifications allows specification of constraints on the quantity of co
 
 NutrientModification consists of the nutrient (e.g., Sodium) and the amount in the diet (e.g., 20-30g).
  
+# =require Range.js.coffee
+# =require CodeableConcept.js.coffee
 @class NutrientModification
 @exports  NutrientModification as quick.NutrientModification
 ###

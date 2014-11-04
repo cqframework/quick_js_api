@@ -63,6 +63,21 @@ let TicagrelorOrder =
       IsEquivalent(((LD.administrationFrequency.cycle.cycleTiming as AnchoredEvent).cycle[1].cycleTiming as CodedRecurringEvent).repeatCode,  TwicePerDayCode)
     )
  
+# =require Period.js.coffee
+# =require Dispense.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require StatementTopic.js.coffee
+# =require Medication.js.coffee
+# =require Indication.js.coffee
+# =require ActionStatus.js.coffee
+# =require StatementModality.js.coffee
+# =require Dosage.js.coffee
+# =require Patient.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
+# =require Practitioner.js.coffee
+# =require Person.js.coffee
+# =require Entity.js.coffee
 @class MedicationTreatmentOrderOccurrence
 @exports  MedicationTreatmentOrderOccurrence as quick.MedicationTreatmentOrderOccurrence
 ###

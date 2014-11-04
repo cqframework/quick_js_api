@@ -32,6 +32,10 @@ Describes a contraindication to a healthcare related action, e.g., medication in
 
 A contraindication is a specific situation in which a drug, procedure, or surgery should not be used because it may be harmful to the patient, due to the presence of other conditions (e.g., kidney dysfunction) or some other acts (e.g., another medication)
  
+# =require Inference.js.coffee
+# =require Period.js.coffee
+# =require Act.js.coffee
+# =require CodeableConcept.js.coffee
 @class Contraindication
 @exports  Contraindication as quick.Contraindication
 ###

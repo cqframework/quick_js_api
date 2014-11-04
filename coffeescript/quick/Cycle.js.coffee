@@ -38,6 +38,9 @@ Represents a predictable periodic interval where events may occur at specific po
 Note that cycles may be nested. For instance, 
 A chemotherapy regimen where a substance is administered TID on day 1,5,10 of a 10-day cycle.
  
+# =require Period.js.coffee
+# =require Quantity.js.coffee
+# =require CycleEventTiming.js.coffee
 @class Cycle
 @exports  Cycle as quick.Cycle
 ###

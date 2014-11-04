@@ -32,6 +32,8 @@ Specifies timing as a number of times the event occurs in the cycleLength and wh
 
 For instance, if the cycle length is 24 hours, the frequencyPerCycle is 3 and the intervalIsImportant is true, this is equivalent to stating that the event should occur every 8 hours (Q8H).
  
+# =require Range.js.coffee
+# =require CodeableConcept.js.coffee
 @class RecurringEvent
 @exports  RecurringEvent as quick.RecurringEvent
 ###

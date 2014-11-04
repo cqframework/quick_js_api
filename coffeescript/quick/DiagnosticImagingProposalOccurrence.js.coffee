@@ -40,6 +40,21 @@ let CTSpineProposal =
     [Condition:  "Low Back Pain"] LBP where 
       CT.proposedAtTime starts at most 28 days after start LBP.effectiveTime
  
+# =require Period.js.coffee
+# =require Range.js.coffee
+# =require BodySite.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require StatementTopic.js.coffee
+# =require MedicationTreatment.js.coffee
+# =require Indication.js.coffee
+# =require ActionStatus.js.coffee
+# =require Schedule.js.coffee
+# =require StatementModality.js.coffee
+# =require Patient.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
+# =require Person.js.coffee
+# =require Entity.js.coffee
 @class DiagnosticImagingProposalOccurrence
 @exports  DiagnosticImagingProposalOccurrence as quick.DiagnosticImagingProposalOccurrence
 ###

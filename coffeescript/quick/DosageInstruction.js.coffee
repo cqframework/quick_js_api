@@ -30,6 +30,13 @@ this.QUICK ||= {}
 ###*
 Indicates how the medication is to be administered to or used by the patient.
  
+# =require Period.js.coffee
+# =require Range.js.coffee
+# =require Quantity.js.coffee
+# =require BodySite.js.coffee
+# =require Schedule.js.coffee
+# =require Ratio.js.coffee
+# =require CodeableConcept.js.coffee
 @class DosageInstruction
 @exports  DosageInstruction as quick.DosageInstruction
 ###

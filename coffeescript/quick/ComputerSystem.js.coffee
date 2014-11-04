@@ -30,6 +30,9 @@ this.QUICK ||= {}
 ###*
 A service or information system excluding medical devices. Such services may include a communication service that generates an alert, a system that supports the persistence and retrieval of clinical information, or a clinical decision support system that may be the source of a proposal for a procedure.
  
+# =require EntityCharacteristic.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
 @class ComputerSystem
 @exports  ComputerSystem as quick.ComputerSystem
 ###

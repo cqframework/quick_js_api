@@ -30,6 +30,11 @@ this.QUICK ||= {}
 ###*
 An Imaging examination. For instance, Chest Radiograph - PA and Lateral.
  
+# =require Range.js.coffee
+# =require Schedule.js.coffee
+# =require BodySite.js.coffee
+# =require MedicationTreatment.js.coffee
+# =require CodeableConcept.js.coffee
 @class DiagnosticImaging
 @exports  DiagnosticImaging as quick.DiagnosticImaging
 ###

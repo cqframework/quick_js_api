@@ -30,6 +30,8 @@ this.QUICK ||= {}
 ###*
 The signs and symptoms that were observed as part of the event.
  
+# =require BodySite.js.coffee
+# =require CodeableConcept.js.coffee
 @class ManifestedSymptom
 @exports  ManifestedSymptom as quick.ManifestedSymptom
 ###

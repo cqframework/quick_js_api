@@ -30,6 +30,9 @@ this.QUICK ||= {}
 ###*
 Exposure to an agent or a healthcare action that is believed to have consequences.
  
+# =require Period.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require CodeableConcept.js.coffee
 @class Exposure
 @exports  Exposure as quick.Exposure
 ###

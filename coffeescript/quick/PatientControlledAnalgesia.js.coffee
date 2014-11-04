@@ -30,6 +30,10 @@ this.QUICK ||= {}
 ###*
 Patient Controlled Analgesia administration. For instance, morphine PCA, 5 mg loading dose, followed by 10 mg/hr basal rate, 1 mg demand dose, lockout interval 10 min.
  
+# =require Medication.js.coffee
+# =require Range.js.coffee
+# =require Dispense.js.coffee
+# =require Dosage.js.coffee
 @class PatientControlledAnalgesia
 @exports  PatientControlledAnalgesia as quick.PatientControlledAnalgesia
 ###

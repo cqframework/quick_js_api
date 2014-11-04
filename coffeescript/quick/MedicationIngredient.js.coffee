@@ -30,6 +30,8 @@ this.QUICK ||= {}
 ###*
 The composition of the medication.
  
+# =require Quantity.js.coffee
+# =require CodeableConcept.js.coffee
 @class MedicationIngredient
 @exports  MedicationIngredient as quick.MedicationIngredient
 ###

@@ -47,6 +47,19 @@ let PertussisNotificationSD =
         and (P as ConditionOccurrence).code in "Pertussis Diagnosis Value Set"
     )
  
+# =require Period.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require Attachment.js.coffee
+# =require StatementTopic.js.coffee
+# =require ClinicalStatement.js.coffee
+# =require Indication.js.coffee
+# =require ActionStatus.js.coffee
+# =require StatementModality.js.coffee
+# =require Patient.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
+# =require Person.js.coffee
+# =require Entity.js.coffee
 @class CommunicationProposalOccurrence
 @exports  CommunicationProposalOccurrence as quick.CommunicationProposalOccurrence
 ###

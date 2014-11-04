@@ -30,6 +30,10 @@ this.QUICK ||= {}
 ###*
 A communication is a message sent between a sender and a recipient for a purpose and about a topic. Messages may be multipart each part having its own content-type.
  
+# =require ClinicalStatement.js.coffee
+# =require Attachment.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Entity.js.coffee
 @class Communication
 @exports  Communication as quick.Communication
 ###

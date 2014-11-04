@@ -30,6 +30,12 @@ this.QUICK ||= {}
 ###*
 A record of something of clinical relevance generally made by a patient, practitioner, or system stating the occurrence of the statement's topic.
  
+# =require StatementTopic.js.coffee
+# =require StatementModality.js.coffee
+# =require Patient.js.coffee
+# =require Identifier.js.coffee
+# =require Person.js.coffee
+# =require Entity.js.coffee
 @class StatementOfOccurrence
 @exports  StatementOfOccurrence as quick.StatementOfOccurrence
 ###

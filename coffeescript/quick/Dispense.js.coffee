@@ -30,6 +30,11 @@ this.QUICK ||= {}
 ###*
 Details of the dispensation such as the days supply and quantity of medication (to be) dispensed.
  
+# =require Period.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require Quantity.js.coffee
+# =require Duration.js.coffee
+# =require CodeableConcept.js.coffee
 @class Dispense
 @exports  Dispense as quick.Dispense
 ###

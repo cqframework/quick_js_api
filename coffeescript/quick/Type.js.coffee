@@ -28,6 +28,7 @@
 ###
 this.QUICK ||= {}
 ###*
+# =require Extension.js.coffee
 @class Type
 @exports  Type as quick.Type
 ###

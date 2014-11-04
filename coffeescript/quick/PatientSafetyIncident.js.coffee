@@ -30,6 +30,9 @@ this.QUICK ||= {}
 ###*
 An patient safety incident (a type of adverse event) is an unintended action or workflow such administering the wrong dose, administering the medication to the wrong patient, administering a medication by the wrong route, a patient falling out of bed.  An adverse event might or might not result in an adverse reaction or harm to the patient.
  
+# =require Period.js.coffee
+# =require ClinicalStatement.js.coffee
+# =require CodeableConcept.js.coffee
 @class PatientSafetyIncident
 @exports  PatientSafetyIncident as quick.PatientSafetyIncident
 ###

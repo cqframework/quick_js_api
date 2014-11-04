@@ -28,6 +28,7 @@
 ###
 this.QUICK ||= {}
 ###*
+# =require Extension.js.coffee
 @class Distance
 @exports  Distance as quick.Distance
 ###

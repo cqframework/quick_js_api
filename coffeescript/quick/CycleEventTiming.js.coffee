@@ -30,6 +30,7 @@ this.QUICK ||= {}
 ###*
 Identifies a repeating pattern to the intended time periods such as the number of occurrences in a given time period, the days in a multi-day cycle, or a code representing the frequency of occurrence for a given cycle.
  
+# =require CodeableConcept.js.coffee
 @class CycleEventTiming
 @exports  CycleEventTiming as quick.CycleEventTiming
 ###

@@ -30,6 +30,9 @@ this.QUICK ||= {}
 ###*
 A way to provide food through a tube placed in the nose, mouth, the stomach, or the small intestine. 
  
+# =require Quantity.js.coffee
+# =require NutritionProduct.js.coffee
+# =require DosageInstruction.js.coffee
 @class EnteralFormula
 @exports  EnteralFormula as quick.EnteralFormula
 ###

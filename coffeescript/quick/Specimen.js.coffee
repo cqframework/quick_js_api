@@ -30,6 +30,11 @@ this.QUICK ||= {}
 ###*
 A sample of tissue, blood, urine, water, air, etc., taken for the purposes of diagnostic examination or evaluation.
  
+# =require BodySite.js.coffee
+# =require EntityCharacteristic.js.coffee
+# =require Patient.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
 @class Specimen
 @exports  Specimen as quick.Specimen
 ###

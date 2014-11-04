@@ -30,6 +30,8 @@ this.QUICK ||= {}
 ###*
 A description of an undesirable physiologic or other reaction to an external stimulus.
  
+# =require Period.js.coffee
+# =require CodeableConcept.js.coffee
 @class AllergyIntolerance
 @exports  AllergyIntolerance as quick.AllergyIntolerance
 ###

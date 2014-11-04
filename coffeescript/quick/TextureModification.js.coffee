@@ -30,6 +30,7 @@ this.QUICK ||= {}
 ###*
 TextureModification specifies or modifies the texture for one or more types of food in a diet, e.g., ground, chopped, or puree. Texture modification is part of the diet specification and may have different textures ordered for different food groups, e.g., ground meat.
  
+# =require CodeableConcept.js.coffee
 @class TextureModification
 @exports  TextureModification as quick.TextureModification
 ###

@@ -28,6 +28,7 @@
 ###
 this.QUICK ||= {}
 ###*
+# =require Extension.js.coffee
 @class Money
 @exports  Money as quick.Money
 ###

@@ -32,6 +32,10 @@ Procedures that encompass supplemental oxygen (eg, nasal cannula, face mask), Bi
 
 Note: While these are vastly different respiratory care concepts, the associated data elements can be constrained through templates.
  
+# =require Range.js.coffee
+# =require Schedule.js.coffee
+# =require BodySite.js.coffee
+# =require CodeableConcept.js.coffee
 @class RespiratoryCare
 @exports  RespiratoryCare as quick.RespiratoryCare
 ###

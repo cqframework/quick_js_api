@@ -30,6 +30,8 @@ this.QUICK ||= {}
 ###*
 A physical thing, group of physical things or an organization. It is a concrete class that can be used as is or specialized as needed.
  
+# =require EntityCharacteristic.js.coffee
+# =require Identifier.js.coffee
 @class Entity
 @exports  Entity as quick.Entity
 ###

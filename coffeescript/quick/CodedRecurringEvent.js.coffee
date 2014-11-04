@@ -30,6 +30,7 @@ this.QUICK ||= {}
 ###*
 Specification of a repetitive schedule element as a code
  
+# =require CodeableConcept.js.coffee
 @class CodedRecurringEvent
 @exports  CodedRecurringEvent as quick.CodedRecurringEvent
 ###

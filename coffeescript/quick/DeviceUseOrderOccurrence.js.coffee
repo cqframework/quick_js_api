@@ -39,6 +39,21 @@ let NTPOrder =
   [DeviceUse, Order: "Non-Invasive Transcutaneous Pacing"] N where
     N.urgency in "Urgent Action Value Set"
  
+# =require Period.js.coffee
+# =require BodySite.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require StatementTopic.js.coffee
+# =require Device.js.coffee
+# =require Indication.js.coffee
+# =require Schedule.js.coffee
+# =require ActionStatus.js.coffee
+# =require StatementModality.js.coffee
+# =require Patient.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
+# =require Practitioner.js.coffee
+# =require Person.js.coffee
+# =require Entity.js.coffee
 @class DeviceUseOrderOccurrence
 @exports  DeviceUseOrderOccurrence as quick.DeviceUseOrderOccurrence
 ###

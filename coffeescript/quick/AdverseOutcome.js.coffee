@@ -38,6 +38,10 @@ Iatrogenic issues should generally be represented as both an adverse event and p
 
 In some cases, the iatrogenic event will be distinct from the resulting problem. For example, an inadvertent liver laceration during surgery is an adverse event whereas the resulting liver bleeding is the problem.
  
+# =require Period.js.coffee
+# =require ClinicalStatement.js.coffee
+# =require CodeableConcept.js.coffee
+# =require ManifestedSymptom.js.coffee
 @class AdverseOutcome
 @exports  AdverseOutcome as quick.AdverseOutcome
 ###

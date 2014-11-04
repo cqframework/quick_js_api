@@ -32,6 +32,12 @@ Demographics and other administrative information about a person receiving care 
 
 The data in the element covers the "who" information about the patient: it's attributes are focused on the demographic information necessary to support the administrative, financial and logistic procedures.
  
+# =require Contact.js.coffee
+# =require HumanName.js.coffee
+# =require Address.js.coffee
+# =require EntityCharacteristic.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
 @class Patient
 @exports  Patient as quick.Patient
 ###

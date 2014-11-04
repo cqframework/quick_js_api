@@ -32,6 +32,10 @@ Concept generally representing food and/or a nutritional supplement prepared fro
 
 A patient can have only one effective oral diet at a time.
  
+# =require Schedule.js.coffee
+# =require NutrientModification.js.coffee
+# =require CodeableConcept.js.coffee
+# =require TextureModification.js.coffee
 @class OralDiet
 @exports  OralDiet as quick.OralDiet
 ###

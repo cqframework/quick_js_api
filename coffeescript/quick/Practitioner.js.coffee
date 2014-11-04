@@ -42,6 +42,14 @@ Practitioner covers all individuals who are engaged in the healthcare process an
  <li>IT personnel merging or unmerging patient records</li>
 </ul>
  
+# =require Qualification.js.coffee
+# =require Contact.js.coffee
+# =require HumanName.js.coffee
+# =require Address.js.coffee
+# =require EntityCharacteristic.js.coffee
+# =require Organization.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
 @class Practitioner
 @exports  Practitioner as quick.Practitioner
 ###

@@ -43,6 +43,20 @@ let AspirinProposal =
     and
     IsEquivalent((dosage[1].administrationFrequency.cycle.cycleTiming as CodedRecurringEvent).repeatCode, OncePerDayCode)
  
+# =require Period.js.coffee
+# =require Dispense.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require StatementTopic.js.coffee
+# =require Medication.js.coffee
+# =require Indication.js.coffee
+# =require ActionStatus.js.coffee
+# =require StatementModality.js.coffee
+# =require Dosage.js.coffee
+# =require Patient.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
+# =require Person.js.coffee
+# =require Entity.js.coffee
 @class MedicationTreatmentProposalOccurrence
 @exports  MedicationTreatmentProposalOccurrence as quick.MedicationTreatmentProposalOccurrence
 ###

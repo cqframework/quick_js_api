@@ -30,6 +30,11 @@ this.QUICK ||= {}
 ###*
 Abstract class for concepts that represent how a medication is to be used by or administered to the patient.
  
+# =require Range.js.coffee
+# =require Quantity.js.coffee
+# =require BodySite.js.coffee
+# =require Schedule.js.coffee
+# =require CodeableConcept.js.coffee
 @class Dosage
 @exports  Dosage as quick.Dosage
 ###

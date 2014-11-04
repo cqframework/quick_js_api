@@ -41,6 +41,20 @@ let FSOrder =
      and 
        procedureSchedule.administrationFrequency.cycle.cycleLength = 1 days
  
+# =require Period.js.coffee
+# =require BodySite.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require StatementTopic.js.coffee
+# =require Indication.js.coffee
+# =require ActionStatus.js.coffee
+# =require Schedule.js.coffee
+# =require StatementModality.js.coffee
+# =require Patient.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
+# =require Practitioner.js.coffee
+# =require Person.js.coffee
+# =require Entity.js.coffee
 @class ProcedureOrderOccurrence
 @exports  ProcedureOrderOccurrence as quick.ProcedureOrderOccurrence
 ###

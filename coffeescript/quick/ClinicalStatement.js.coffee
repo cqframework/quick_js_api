@@ -36,6 +36,13 @@ Note that there are currently three types of clinical statements:
 2. A StatementOfNonOccurrence which indicates that the topic of the statement has not or will not occur. Note that this statement is different from receiving an empty result set when searching for items of relevance. Given an open-world assumption, not returning results does not necessarily indicate that the event, fact, or action has not been asserted. Rather, a StatementOfNonOccurrence indicates that a person has made an explicit statement that the statement's topic did not occur.
 3. A StatementOfUnknownOccurrence which represents an explicit statement that it is not known whether something has or will occur. 
  
+# =require StatementOfOccurrence.js.coffee
+# =require StatementTopic.js.coffee
+# =require StatementModality.js.coffee
+# =require Patient.js.coffee
+# =require Identifier.js.coffee
+# =require Person.js.coffee
+# =require Entity.js.coffee
 @class ClinicalStatement
 @exports  ClinicalStatement as quick.ClinicalStatement
 ###

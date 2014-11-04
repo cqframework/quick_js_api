@@ -30,6 +30,7 @@ this.QUICK ||= {}
 ###*
 Indicates that the statement is concerned about observations made about a patient.
  
+# =require Period.js.coffee
 @class Observation
 @exports  Observation as quick.Observation
 ###

@@ -30,6 +30,9 @@ this.QUICK ||= {}
 ###*
 Description of a healthcare action, independent of the performance of the action.
  
+# =require Indication.js.coffee
+# =require ActionStatus.js.coffee
+# =require CodeableConcept.js.coffee
 @class Action
 @exports  Action as quick.Action
 ###

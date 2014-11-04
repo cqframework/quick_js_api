@@ -34,6 +34,9 @@ A schedule that specifies an event that may occur multiple times. Schedules shou
 
 A schedule can be either a list of 'calendar time' events - periods on which the event ought to occur, or a single event with repeating criteria, or just repeating criteria with no actual event as represented by the 'cycle' concept and attribute.
  
+# =require Period.js.coffee
+# =require Extension.js.coffee
+# =require Cycle.js.coffee
 @class Schedule
 @exports  Schedule as quick.Schedule
 ###

@@ -30,6 +30,10 @@ this.QUICK ||= {}
 ###*
 Primarily used for identification and definition of Medication, but also covers ingredients and packaging.
  
+# =require EntityCharacteristic.js.coffee
+# =require CodeableConcept.js.coffee
+# =require MedicationIngredient.js.coffee
+# =require Identifier.js.coffee
 @class Medication
 @exports  Medication as quick.Medication
 ###

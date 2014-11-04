@@ -39,6 +39,12 @@ Personal characteristics: height, weight, eye-color
 Social history: tobacco use, family supports, cognitive status
 Core characteristics:  blood type
  
+# =require Specimen.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require BodySite.js.coffee
+# =require CodeableConcept.js.coffee
+# =require RelatedObservation.js.coffee
+# =require Element.js.coffee
 @class ObservationResult
 @exports  ObservationResult as quick.ObservationResult
 ###

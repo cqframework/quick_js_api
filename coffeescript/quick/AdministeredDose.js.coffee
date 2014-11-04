@@ -30,6 +30,11 @@ this.QUICK ||= {}
 ###*
 How the medication has been administered to the patient.
  
+# =require Range.js.coffee
+# =require Quantity.js.coffee
+# =require BodySite.js.coffee
+# =require Schedule.js.coffee
+# =require CodeableConcept.js.coffee
 @class AdministeredDose
 @exports  AdministeredDose as quick.AdministeredDose
 ###

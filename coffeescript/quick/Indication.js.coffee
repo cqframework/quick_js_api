@@ -32,6 +32,8 @@ An asserted clinical reason to perform a test, prescribe a medication, procedure
 
 The reason can be specified as a code or as another statement, e.g., code for diabetes (ICD-9-CM 250.0) or Condition (with diabetes code) documented elsewhere in a patient's record.
  
+# =require ClinicalStatement.js.coffee
+# =require CodeableConcept.js.coffee
 @class Indication
 @exports  Indication as quick.Indication
 ###

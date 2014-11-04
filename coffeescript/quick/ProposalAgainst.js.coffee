@@ -30,6 +30,9 @@ this.QUICK ||= {}
 ###*
 Concept represents a recommendation from a clinical decision support system or advice from a consultation to not perform an act.
  
+# =require Indication.js.coffee
+# =require ActionStatus.js.coffee
+# =require CodeableConcept.js.coffee
 @class ProposalAgainst
 @exports  ProposalAgainst as quick.ProposalAgainst
 ###

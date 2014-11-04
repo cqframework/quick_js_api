@@ -30,6 +30,14 @@ this.QUICK ||= {}
 ###*
 Description of an interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.
  
+# =require StatementOfOccurrence.js.coffee
+# =require Quantity.js.coffee
+# =require Schedule.js.coffee
+# =require Hospitalization.js.coffee
+# =require EncounterCondition.js.coffee
+# =require Organization.js.coffee
+# =require Location.js.coffee
+# =require CodeableConcept.js.coffee
 @class Encounter
 @exports  Encounter as quick.Encounter
 ###

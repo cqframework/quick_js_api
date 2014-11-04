@@ -30,6 +30,8 @@ this.QUICK ||= {}
 ###*
 A class enabling relationships to be specified between two statements about ObservationResults.
  
+# =require StatementOfOccurrence.js.coffee
+# =require CodeableConcept.js.coffee
 @class RelatedObservation
 @exports  RelatedObservation as quick.RelatedObservation
 ###

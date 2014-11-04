@@ -39,6 +39,19 @@ let AMICondition =
   [Condition: "Acute Myocardial Infarction Grouping ValueSet"] AMI
     where effectiveTime starts at most 12 months before start MeasurementPeriod
  
+# =require Period.js.coffee
+# =require Range.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require BodySite.js.coffee
+# =require StatementTopic.js.coffee
+# =require Qualifier.js.coffee
+# =require StatementModality.js.coffee
+# =require Patient.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
+# =require Stage.js.coffee
+# =require Person.js.coffee
+# =require Entity.js.coffee
 @class ConditionOccurrence
 @exports  ConditionOccurrence as quick.ConditionOccurrence
 ###

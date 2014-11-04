@@ -30,6 +30,8 @@ this.QUICK ||= {}
 ###*
 The type of imaging and any accessories that will be used during a simulation session for radiotherapy.  For example, an order might indicate that the simulation should be done using a 4-dimensional PET-CT with 5mm slices, no bolus and wire (to mark surgical scar).
  
+# =require Range.js.coffee
+# =require CodeableConcept.js.coffee
 @class RadiotherapySimulation
 @exports  RadiotherapySimulation as quick.RadiotherapySimulation
 ###

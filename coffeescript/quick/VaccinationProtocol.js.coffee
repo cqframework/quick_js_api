@@ -30,6 +30,9 @@ this.QUICK ||= {}
 ###*
 Information about the protocol(s) under which the vaccine was administered
  
+# =require Quantity.js.coffee
+# =require Organization.js.coffee
+# =require CodeableConcept.js.coffee
 @class VaccinationProtocol
 @exports  VaccinationProtocol as quick.VaccinationProtocol
 ###

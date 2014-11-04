@@ -44,6 +44,17 @@ let FraminghamScore =
         and
       duration in years of FSP.timePeriod = 10 years
  
+# =require Period.js.coffee
+# =require Inference.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require StatementTopic.js.coffee
+# =require StatementModality.js.coffee
+# =require Patient.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
+# =require Person.js.coffee
+# =require Element.js.coffee
+# =require Entity.js.coffee
 @class PredictionOccurrence
 @exports  PredictionOccurrence as quick.PredictionOccurrence
 ###

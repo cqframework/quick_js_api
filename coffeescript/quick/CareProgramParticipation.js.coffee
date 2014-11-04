@@ -30,6 +30,9 @@ this.QUICK ||= {}
 ###*
 Description of the participation of a patient in a recognized program of care such as a care plan, a chemotherapy protocol, or a clinical trial.
  
+# =require StatementOfOccurrence.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
 @class CareProgramParticipation
 @exports  CareProgramParticipation as quick.CareProgramParticipation
 ###

@@ -30,6 +30,7 @@ this.QUICK ||= {}
 ###*
 A location on a person's body.  E.g., left breast, heart.
  
+# =require CodeableConcept.js.coffee
 @class BodySite
 @exports  BodySite as quick.BodySite
 ###

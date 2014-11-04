@@ -32,6 +32,9 @@ Identifies the timing of a point-in-time occurrence and optionally a sub-cycle i
 
 For instance give a medication on the fifth, 10th, and 18th day of a 24-day cycle for a duration of 1 day each time, three times per day.
  
+# =require Quantity.js.coffee
+# =require Cycle.js.coffee
+# =require CodeableConcept.js.coffee
 @class AnchoredEvent
 @exports  AnchoredEvent as quick.AnchoredEvent
 ###

@@ -30,6 +30,9 @@ this.QUICK ||= {}
 ###*
 Qualifications obtained by training and certification.
  
+# =require Period.js.coffee
+# =require Organization.js.coffee
+# =require CodeableConcept.js.coffee
 @class Qualification
 @exports  Qualification as quick.Qualification
 ###

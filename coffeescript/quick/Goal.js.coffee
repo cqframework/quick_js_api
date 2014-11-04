@@ -30,6 +30,9 @@ this.QUICK ||= {}
 ###*
 A defined target or measure to be achieved in the process of patient care; a desired outcome. A typical goal is expressed as a change in status expected at a defined future time.
  
+# =require Period.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Element.js.coffee
 @class Goal
 @exports  Goal as quick.Goal
 ###

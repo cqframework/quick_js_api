@@ -30,6 +30,12 @@ this.QUICK ||= {}
 ###*
 This element identifies an instance of a manufactured thing that is used in the provision of healthcare without being substantially changed through that activity. The device may be a machine, an insert, a computer, an application, etc. This includes durable (reusable) medical equipment as well as disposable equipment used for diagnostic, treatment, and research for healthcare and public health.
  
+# =require EntityCharacteristic.js.coffee
+# =require Patient.js.coffee
+# =require Organization.js.coffee
+# =require Location.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
 @class Device
 @exports  Device as quick.Device
 ###

@@ -40,6 +40,11 @@ Vehicle or lift
 Home, shed, or a garage
 Road, parking place, a park
  
+# =require Contact.js.coffee
+# =require Address.js.coffee
+# =require EntityCharacteristic.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
 @class Location
 @exports  Location as quick.Location
 ###

@@ -34,6 +34,11 @@ ObservationResults are a central element in healthcare, used to support diagnosi
 
 This data type does not support the storage of the image or signal sequences such as electrocardiogram data.  However, the observations and interpretation made from the images and signals can be represented here.
  
+# =require Specimen.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require BodySite.js.coffee
+# =require CodeableConcept.js.coffee
+# =require RelatedObservation.js.coffee
 @class ObservationResultBase
 @exports  ObservationResultBase as quick.ObservationResultBase
 ###

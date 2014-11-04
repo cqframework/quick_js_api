@@ -28,6 +28,8 @@
 ###
 this.QUICK ||= {}
 ###*
+# =require Extension.js.coffee
+# =require Coding.js.coffee
 @class CodeableConcept
 @exports  CodeableConcept as quick.CodeableConcept
 ###

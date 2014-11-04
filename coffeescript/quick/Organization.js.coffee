@@ -30,6 +30,11 @@ this.QUICK ||= {}
 ###*
 A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action. Includes companies, institutions, corporations, departments, community groups, healthcare practice groups, etc.
  
+# =require Contact.js.coffee
+# =require Address.js.coffee
+# =require EntityCharacteristic.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
 @class Organization
 @exports  Organization as quick.Organization
 ###

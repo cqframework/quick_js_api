@@ -28,6 +28,7 @@
 ###
 this.QUICK ||= {}
 ###*
+# =require Extension.js.coffee
 @class ResourceReference
 @exports  ResourceReference as quick.ResourceReference
 ###

@@ -34,6 +34,11 @@ This class represents desirable and undesirable courses.
 
 Examples: 5 year survival, 10-year risk of heart disease, likelihood to recover lower limb neuromuscular function after spinal cord injury
  
+# =require Period.js.coffee
+# =require Inference.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Element.js.coffee
 @class Prediction
 @exports  Prediction as quick.Prediction
 ###

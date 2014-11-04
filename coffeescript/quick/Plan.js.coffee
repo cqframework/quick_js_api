@@ -30,6 +30,11 @@ this.QUICK ||= {}
 ###*
 A plan to perform an act. Typically, this would include a time at which the action is expected or scheduled to be performed.
  
+# =require Indication.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require ActionStatus.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Person.js.coffee
 @class Plan
 @exports  Plan as quick.Plan
 ###

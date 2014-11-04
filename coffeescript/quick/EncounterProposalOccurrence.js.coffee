@@ -42,6 +42,23 @@ let NutrRef =
        and 
      indication[1].reason in "Weight Loss"
  
+# =require Period.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require Quantity.js.coffee
+# =require StatementTopic.js.coffee
+# =require EncounterCondition.js.coffee
+# =require Organization.js.coffee
+# =require Location.js.coffee
+# =require Indication.js.coffee
+# =require ActionStatus.js.coffee
+# =require Schedule.js.coffee
+# =require Hospitalization.js.coffee
+# =require StatementModality.js.coffee
+# =require Patient.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
+# =require Person.js.coffee
+# =require Entity.js.coffee
 @class EncounterProposalOccurrence
 @exports  EncounterProposalOccurrence as quick.EncounterProposalOccurrence
 ###

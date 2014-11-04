@@ -30,6 +30,8 @@ this.QUICK ||= {}
 ###*
 A condition that is considered within the encounter and the role that the condition played within the encounter, e.g., diagnosis at discharge.
  
+# =require StatementOfOccurrence.js.coffee
+# =require CodeableConcept.js.coffee
 @class EncounterCondition
 @exports  EncounterCondition as quick.EncounterCondition
 ###

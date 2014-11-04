@@ -30,6 +30,8 @@ this.QUICK ||= {}
 ###*
 Clinical stage or grade of a condition. May include formal severity assessments.
  
+# =require ClinicalStatement.js.coffee
+# =require CodeableConcept.js.coffee
 @class Stage
 @exports  Stage as quick.Stage
 ###

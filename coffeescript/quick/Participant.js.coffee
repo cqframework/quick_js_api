@@ -30,6 +30,8 @@ this.QUICK ||= {}
 ###*
 Person playing a specified role in an action.
  
+# =require CodeableConcept.js.coffee
+# =require Person.js.coffee
 @class Participant
 @exports  Participant as quick.Participant
 ###

@@ -30,6 +30,12 @@ this.QUICK ||= {}
 ###*
 An order is an instruction by a healthcare provider to another healthcare provider to perform some act.
  
+# =require Period.js.coffee
+# =require Indication.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require ActionStatus.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Practitioner.js.coffee
 @class Order
 @exports  Order as quick.Order
 ###

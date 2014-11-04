@@ -30,6 +30,7 @@ this.QUICK ||= {}
 ###*
 Description of diet/nutrition to be administered to a patient.
  
+# =require NutritionItem.js.coffee
 @class Diet
 @exports  Diet as quick.Diet
 ###

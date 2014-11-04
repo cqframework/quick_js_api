@@ -28,6 +28,7 @@
 ###
 this.QUICK ||= {}
 ###*
+# =require Extension.js.coffee
 @class Quantity
 @exports  Quantity as quick.Quantity
 ###

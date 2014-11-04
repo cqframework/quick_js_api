@@ -32,6 +32,11 @@ An adverse event caused by exposure to some agent (e.g., a medication, immunizat
 
 An adverse reaction can range from a mild reaction, such as a harmless rash to a severe and life-threatening condition. They can occur immediately or develop over time. For example, a patient may develop a rash after taking a particular medication. 
  
+# =require Period.js.coffee
+# =require ClinicalStatement.js.coffee
+# =require Exposure.js.coffee
+# =require CodeableConcept.js.coffee
+# =require ManifestedSymptom.js.coffee
 @class AdverseReaction
 @exports  AdverseReaction as quick.AdverseReaction
 ###

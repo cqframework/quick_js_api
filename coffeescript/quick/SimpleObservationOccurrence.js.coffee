@@ -44,6 +44,19 @@ let LastBPNormal =
                      where SBP.observedAtTime during OV.performanceTime
               where SBP.value &lt; 140 u'mm[Hg]'
  
+# =require Period.js.coffee
+# =require BodySite.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require StatementTopic.js.coffee
+# =require Specimen.js.coffee
+# =require StatementModality.js.coffee
+# =require Patient.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
+# =require RelatedObservation.js.coffee
+# =require Element.js.coffee
+# =require Person.js.coffee
+# =require Entity.js.coffee
 @class SimpleObservationOccurrence
 @exports  SimpleObservationOccurrence as quick.SimpleObservationOccurrence
 ###

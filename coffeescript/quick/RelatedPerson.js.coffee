@@ -39,6 +39,13 @@ RelatedPersons typically have a personal or non-healthcare-specific professional
  <li>A patient's attorney or guardian</li>
 </ul>
  
+# =require Quantity.js.coffee
+# =require Contact.js.coffee
+# =require HumanName.js.coffee
+# =require Address.js.coffee
+# =require EntityCharacteristic.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
 @class RelatedPerson
 @exports  RelatedPerson as quick.RelatedPerson
 ###

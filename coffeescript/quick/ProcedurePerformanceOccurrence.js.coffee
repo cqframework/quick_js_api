@@ -39,6 +39,20 @@ let PCIEvent =
   [Procedure, Performance: "Percutaneous Coronary Intervention"] PCI
     where performanceTime starts at most 12 months before start MeasurementPeriod
  
+# =require Period.js.coffee
+# =require BodySite.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require StatementTopic.js.coffee
+# =require Participant.js.coffee
+# =require Indication.js.coffee
+# =require ActionStatus.js.coffee
+# =require Schedule.js.coffee
+# =require StatementModality.js.coffee
+# =require Patient.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
+# =require Person.js.coffee
+# =require Entity.js.coffee
 @class ProcedurePerformanceOccurrence
 @exports  ProcedurePerformanceOccurrence as quick.ProcedurePerformanceOccurrence
 ###

@@ -30,6 +30,10 @@ this.QUICK ||= {}
 ###*
 Descriptor for the administration of vaccines to patients across all healthcare disciplines in all care settings and all regions. This does not include the administration of non-vaccine agents, even those that may have or claim immunological effects.
  
+# =require Vaccine.js.coffee
+# =require Dosage.js.coffee
+# =require CodeableConcept.js.coffee
+# =require VaccinationProtocol.js.coffee
 @class Immunization
 @exports  Immunization as quick.Immunization
 ###

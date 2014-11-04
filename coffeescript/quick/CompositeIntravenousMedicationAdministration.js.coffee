@@ -30,6 +30,11 @@ this.QUICK ||= {}
 ###*
 IV fluid administration that may consist of one or more additives mixed into a diluent. Additives and diluents are represented as constituents with the appropriate constituentType.
  
+# =require Medication.js.coffee
+# =require Dispense.js.coffee
+# =require Quantity.js.coffee
+# =require Constituent.js.coffee
+# =require Dosage.js.coffee
 @class CompositeIntravenousMedicationAdministration
 @exports  CompositeIntravenousMedicationAdministration as quick.CompositeIntravenousMedicationAdministration
 ###

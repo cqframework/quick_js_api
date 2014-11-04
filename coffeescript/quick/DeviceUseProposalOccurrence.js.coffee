@@ -38,6 +38,20 @@ Use of CPAP is proposed (for patient with sleep apnea)
 let CPAPProposal =
   [DeviceUse, Proposal: "CPAP"]
  
+# =require Period.js.coffee
+# =require BodySite.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require StatementTopic.js.coffee
+# =require Device.js.coffee
+# =require Indication.js.coffee
+# =require Schedule.js.coffee
+# =require ActionStatus.js.coffee
+# =require StatementModality.js.coffee
+# =require Patient.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
+# =require Person.js.coffee
+# =require Entity.js.coffee
 @class DeviceUseProposalOccurrence
 @exports  DeviceUseProposalOccurrence as quick.DeviceUseProposalOccurrence
 ###

@@ -30,6 +30,9 @@ this.QUICK ||= {}
 ###*
 A component of a multi-component substance administration. May be an additive in a composite IV.
  
+# =require Dosage.js.coffee
+# =require CodeableConcept.js.coffee
+# =require MedicationIngredient.js.coffee
 @class Constituent
 @exports  Constituent as quick.Constituent
 ###

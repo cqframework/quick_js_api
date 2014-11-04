@@ -30,6 +30,9 @@ this.QUICK ||= {}
 ###*
 Details about the vaccine product administered to the patient
  
+# =require EntityCharacteristic.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
 @class Vaccine
 @exports  Vaccine as quick.Vaccine
 ###

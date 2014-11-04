@@ -30,6 +30,8 @@ this.QUICK ||= {}
 ###*
 Further qualifies the concept it modifies. For instance, when associated with a condition, a qualifier may describe the intensity of pain or the criticality of the condition.
  
+# =require CodeableConcept.js.coffee
+# =require Element.js.coffee
 @class Qualifier
 @exports  Qualifier as quick.Qualifier
 ###

@@ -38,6 +38,21 @@ Device, Applied: Hospital Measures-Indwelling urinary catheter
 let UsedIndwellingCath =
   [DeviceUse, Performance: "Hospital Measures-Indwelling urinary catheter"]
  
+# =require Period.js.coffee
+# =require BodySite.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require StatementTopic.js.coffee
+# =require Device.js.coffee
+# =require Participant.js.coffee
+# =require Indication.js.coffee
+# =require Schedule.js.coffee
+# =require ActionStatus.js.coffee
+# =require StatementModality.js.coffee
+# =require Patient.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
+# =require Person.js.coffee
+# =require Entity.js.coffee
 @class DeviceUsePerformanceOccurrence
 @exports  DeviceUsePerformanceOccurrence as quick.DeviceUsePerformanceOccurrence
 ###

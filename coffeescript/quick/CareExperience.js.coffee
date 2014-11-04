@@ -30,6 +30,8 @@ this.QUICK ||= {}
 ###*
 Information collected from a consumer, patient, or family member about their perception of the care they received or from a care giver about the care provided. Information collected includes the elements of care coordination, communication, whole-person approach to care, access to care, timeliness of care, and information sharing. Experience also encompasses the patient’s outcomes with respect to care provided in the past. For example, a patient receiving chemotherapy who has not responded to first line medication treatment or who no longer responds to such therapy may require second tier treatment. Such a patient’s experience of care is an important factor in defining subsequent treatment which can be driven by patient preference. 
  
+# =require ClinicalStatement.js.coffee
+# =require CodeableConcept.js.coffee
 @class CareExperience
 @exports  CareExperience as quick.CareExperience
 ###

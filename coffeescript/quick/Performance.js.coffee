@@ -30,6 +30,12 @@ this.QUICK ||= {}
 ###*
 The actual performance or execution of a healthcare-related action, e.g., 3rd dose of Hepatitis B vaccine administered on Dec 4th 2012, appendectomy performed today.
  
+# =require Period.js.coffee
+# =require Indication.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require ActionStatus.js.coffee
+# =require Participant.js.coffee
+# =require CodeableConcept.js.coffee
 @class Performance
 @exports  Performance as quick.Performance
 ###

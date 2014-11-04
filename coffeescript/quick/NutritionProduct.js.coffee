@@ -30,6 +30,9 @@ this.QUICK ||= {}
 ###*
 A manufactured item that is administered for a patient's nutrition
  
+# =require EntityCharacteristic.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
 @class NutritionProduct
 @exports  NutritionProduct as quick.NutritionProduct
 ###

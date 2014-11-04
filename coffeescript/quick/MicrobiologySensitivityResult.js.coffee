@@ -30,6 +30,12 @@ this.QUICK ||= {}
 ###*
 Findings of the microbiology sensitivity test. This element is used to specify traditional, culture-isolate- run susceptibilities. It is not used to specify genetic methods for organism sensitivity.
  
+# =require Specimen.js.coffee
+# =require StatementOfOccurrence.js.coffee
+# =require BodySite.js.coffee
+# =require OrganismSensitivity.js.coffee
+# =require CodeableConcept.js.coffee
+# =require RelatedObservation.js.coffee
 @class MicrobiologySensitivityResult
 @exports  MicrobiologySensitivityResult as quick.MicrobiologySensitivityResult
 ###

@@ -30,6 +30,9 @@ this.QUICK ||= {}
 ###*
 A description of the action of treating a patient's condition with a medication.
  
+# =require Medication.js.coffee
+# =require Dispense.js.coffee
+# =require Dosage.js.coffee
 @class MedicationTreatment
 @exports  MedicationTreatment as quick.MedicationTreatment
 ###

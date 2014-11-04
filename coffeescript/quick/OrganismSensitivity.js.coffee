@@ -30,6 +30,7 @@ this.QUICK ||= {}
 ###*
 Sensitivity of an organism to a specified antimicrobial agent
  
+# =require CodeableConcept.js.coffee
 @class OrganismSensitivity
 @exports  OrganismSensitivity as quick.OrganismSensitivity
 ###

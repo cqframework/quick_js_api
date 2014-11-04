@@ -30,6 +30,13 @@ this.QUICK ||= {}
 ###*
 A record of something of clinical relevance generally made by a patient, practitioner, or system stating that the statement's topic did not occur.
  
+# =require StatementOfOccurrence.js.coffee
+# =require StatementTopic.js.coffee
+# =require StatementModality.js.coffee
+# =require Patient.js.coffee
+# =require Identifier.js.coffee
+# =require Person.js.coffee
+# =require Entity.js.coffee
 @class StatementOfNonOccurrence
 @exports  StatementOfNonOccurrence as quick.StatementOfNonOccurrence
 ###

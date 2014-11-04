@@ -30,6 +30,8 @@ this.QUICK ||= {}
 ###*
 An inference made, about the patient's health, from other statements.
  
+# =require ClinicalStatement.js.coffee
+# =require CodeableConcept.js.coffee
 @class Inference
 @exports  Inference as quick.Inference
 ###

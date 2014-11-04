@@ -30,6 +30,14 @@ this.QUICK ||= {}
 ###*
 Procedure to administer treatment using high energy radiation.
  
+# =require Schedule.js.coffee
+# =require Quantity.js.coffee
+# =require BodySite.js.coffee
+# =require Dosage.js.coffee
+# =require RadiotherapySimulation.js.coffee
+# =require CodeableConcept.js.coffee
+# =require LocalizationMethod.js.coffee
+# =require MotionManagement.js.coffee
 @class Radiotherapy
 @exports  Radiotherapy as quick.Radiotherapy
 ###

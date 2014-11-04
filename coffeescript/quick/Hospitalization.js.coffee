@@ -30,6 +30,7 @@ this.QUICK ||= {}
 ###*
 Details about an admission to a hospital.
  
+# =require CodeableConcept.js.coffee
 @class Hospitalization
 @exports  Hospitalization as quick.Hospitalization
 ###

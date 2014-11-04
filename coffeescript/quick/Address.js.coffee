@@ -28,6 +28,8 @@
 ###
 this.QUICK ||= {}
 ###*
+# =require Period.js.coffee
+# =require Extension.js.coffee
 @class Address
 @exports  Address as quick.Address
 ###

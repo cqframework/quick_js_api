@@ -32,6 +32,12 @@ Demographic and identification information for an individual.
 
 Additional attributes to be added in future versions.
  
+# =require Contact.js.coffee
+# =require HumanName.js.coffee
+# =require Address.js.coffee
+# =require EntityCharacteristic.js.coffee
+# =require CodeableConcept.js.coffee
+# =require Identifier.js.coffee
 @class Person
 @exports  Person as quick.Person
 ###

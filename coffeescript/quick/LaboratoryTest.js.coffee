@@ -30,6 +30,10 @@ this.QUICK ||= {}
 ###*
 A procedure to test a tissue or fluid specimen from a patient, e.g., complete blood count, blood culture.
  
+# =require Specimen.js.coffee
+# =require Schedule.js.coffee
+# =require BodySite.js.coffee
+# =require CodeableConcept.js.coffee
 @class LaboratoryTest
 @exports  LaboratoryTest as quick.LaboratoryTest
 ###

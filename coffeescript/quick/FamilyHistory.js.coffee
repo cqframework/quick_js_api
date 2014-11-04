@@ -32,6 +32,9 @@ Significant health event or condition for people related to the subject, relevan
 
 This information can be known to different levels of accuracy. Sometimes the exact condition ('asthma') is known, and sometimes it is less precise ('some sort of cancer'). Equally, sometimes the person can be identified ('my aunt agatha') and sometimes all that is known is that the person was an uncle.
  
+# =require Quantity.js.coffee
+# =require CodeableConcept.js.coffee
+# =require RelatedPerson.js.coffee
 @class FamilyHistory
 @exports  FamilyHistory as quick.FamilyHistory
 ###

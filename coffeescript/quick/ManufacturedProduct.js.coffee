@@ -30,6 +30,8 @@ this.QUICK ||= {}
 ###*
 Description of a product used in the care of a patient.
  
+# =require EntityCharacteristic.js.coffee
+# =require Identifier.js.coffee
 @class ManufacturedProduct
 @exports  ManufacturedProduct as quick.ManufacturedProduct
 ###
